@@ -153,22 +153,28 @@ footer {
 */
 @media screen and (max-width: 980px) {
     .container {
-        width: 90%;
+        width: 70%;
         height: 100%;
-        margin: 0 auto;
         padding: 30px;
         margin-top: 30px;
         margin-bottom: 100px;
+        margin-left: 52px;
+        float: left;
+    }
+    .wrapper {
+        width: 980px;
     }
     .heading-position {
-        position: relative;
+        position: absolute;
         top: 15px;
-        left: 250px;
+        left: 50px;
     }
-  
-    /* The wrapper's width will be 600px */
-    .wrapper {
-      width: 600px;
+    nav {
+        position: relative;
+        top: 30px;
+        left: 222px;
+        width: 70%;
+        margin: 0 auto;
     }
   }
 /*
@@ -184,10 +190,26 @@ footer {
         margin-top: 30px;
         margin-bottom: 100px;
     }
-  
-    /* The wrapper's width will be 600px */
     .wrapper {
         width: 768px;
+    }
+    .heading-position {
+        position: absolute;
+        top: 0px;
+        left: -264px;
+        width: 100%;
+        padding: 0px;
+    }
+    header {
+        height: 60px;
+        margin-bottom: 20px;   
+    }
+    nav {
+        position: relative;
+        top: 30px;
+        left: 240px;
+        width: 70%;
+        margin: 0 auto;
     }
   }
 /*
