@@ -106,17 +106,6 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
 }
-/* TO delete no longer used 
-#portfolio_imgs h4 {
-    width: 200px;
-    position: absolute;
-    top: 320px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 10px;
-}
-*/
 input[type=text] {
     width: 100%;
     padding: 4px;
@@ -167,10 +156,14 @@ footer {
         width: 90%;
         height: 100%;
         margin: 0 auto;
-        background-color: white;
         padding: 30px;
         margin-top: 30px;
         margin-bottom: 100px;
+    }
+    .heading-position {
+        position: relative;
+        top: 15px;
+        left: 250px;
     }
   
     /* The wrapper's width will be 600px */
@@ -184,37 +177,64 @@ footer {
 */
   @media screen and (max-width: 768px) {
     .container {
-        width: 75%;
-        height: 100%;
+        width: 90%;
+        height: 100%; 
         margin: 0 auto;
-        background-color: white;
-        padding: 30px;
+        padding: 20px;
         margin-top: 30px;
         margin-bottom: 100px;
     }
   
     /* The wrapper's width will be 600px */
     .wrapper {
-      width: 600px;
+        width: 768px;
     }
   }
 /*
   These rules take effect when the browser's width
   is either 640px or less.
 */
-  @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     .container {
-        width: 75%;
-        height: 100%;
+        max-width: 100%;
+        padding: 20px;
         margin: 0 auto;
-        background-color: white;
-        padding: 30px;
-        margin-top: 30px;
         margin-bottom: 100px;
     }
-  
-    /* The wrapper's width will be 600px */
     .wrapper {
-      width: 600px;
+        max-width: 640px;      
+    }
+    .heading-position {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    header {
+        height: 100px;
+        margin-bottom: 20px;   
+    }
+    h1 {
+        width: 100%;
+    }
+    nav {
+        position: relative;
+        top: 70px;
+        left: -50px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    img {
+        width: 190%;
+    }
+    #bio-image {
+        width: 100%;
+    }
+    .port-box {
+        display: block;
+    }
+    .port-box .text {
+        width: 100%;
     }
   }
