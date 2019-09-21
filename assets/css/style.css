@@ -128,7 +128,7 @@ input[type=submit] {
     font-size: 13px;
 }
 textarea {
-    width: 100%;
+    width: 95%;
     padding: 4px;
     margin: 3px 3px 3px 0;
     overflow: auto;
@@ -188,10 +188,11 @@ footer {
         margin: 0 auto;
         padding: 20px;
         margin-top: 30px;
-        margin-bottom: 100px;
+        margin-bottom: 400px;
+        margin-left: 3%;
     }
     .wrapper {
-        width: 768px;
+        width: 750px;
     }
     .heading-position {
         position: absolute;
@@ -207,7 +208,7 @@ footer {
     nav {
         position: relative;
         top: 30px;
-        left: 240px;
+        left: 238px;
         width: 70%;
         margin: 0 auto;
     }
@@ -218,13 +219,14 @@ footer {
 */
 @media screen and (max-width: 640px) {
     .container {
-        max-width: 100%;
+        max-width: 85%;
         padding: 20px;
         margin: 0 auto;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
+        margin-left: 5%;
     }
     .wrapper {
-        max-width: 640px;      
+        max-width: 465px;      
     }
     .heading-position {
         position: absolute;
@@ -242,13 +244,13 @@ footer {
     }
     nav {
         position: relative;
-        top: 70px;
-        left: -50px;
+        top: 72px;
+        left: -52px;
         width: 70%;
         margin: 0 auto;
     }
     img {
-        width: 190%;
+        width: 100%;
     }
     #bio-image {
         width: 100%;
@@ -258,5 +260,7 @@ footer {
     }
     .port-box .text {
         width: 100%;
+        margin-left: 0px;
     }
+    
   }
